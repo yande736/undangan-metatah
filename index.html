@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Undangan Metatah</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:wght@100;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- simplyCountdown -->
+    <link rel="stylesheet" href="countdown/simplyCountdown.theme.default.css" />
+    <script src="countdown/simplyCountdown.min.js"></script>
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Hero section -->
+    <section
+      id="hero"
+      class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white"
+    >
+      <main>
+        <!-- <img src="images/divider6.png" alt="" /> -->
+        <h4>Kepada <span>Bapak/Ibu/Saudara/i, </span></h4>
+        <img src="images/Metatah.png" height="300px" alt="" />
+        <div class="simply-countdown"></div>
+        <a href="#home" class="btn btn-lg mt-4" onClick="enableScroll()"
+          >Lihat Undangan</a
+        >
+        <!-- <img src="images/ornamen-atas.png" alt="" /> -->
+      </main>
+    </section>
+
+    <!-- Navber section -->
+    <nav class="navbar navbar-expand-md bg-transparent sticky-top mynavbar">
+      <div class="container">
+        <a class="navbar-brand text-white" href="#">Metatah</a>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel text-white">
+              Metatah
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link text-white" href="#home">Home</a>
+              <a class="nav-link text-white" href="#info">Info</a>
+              <a class="nav-link text-white" href="#rsvp">RSVP</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-10 text-center">
+            <img
+              src="images/swastika12.png"
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="1000"
+              class="img-fluid"
+            />
+            <img
+              src="images/OM-SWASTYASTU21-1024x320.png"
+              height="200px"
+              class="mb-5 img2 img-fluid"
+              data-aos="zoom-in"
+              data-aos-duration="1500"
+            />
+            <h2 data-aos="fade-up" data-aos-duration="1500">Om Swastyastu</h2>
+            <p class="fs-6" data-aos="zoom-in" data-aos-duration="1500">
+              Atas Asung Kertha Wara Nugraha Ida Sang Hyang Widhi Wasa/Tuhan
+              Yang Maha Esa, perkenankan kami mengundang Bapak/Ibu/Saudara/i,
+              pada Upacara Metatah (Potong Gigi) putra-putri kami.
+            </p>
+
+            <h3 class="mt-5" data-aos="fade-left" data-aos-duration="1500">
+              I Gede Rino Saputra
+            </h3>
+            <h3 data-aos="fade-left" data-aos-duration="1500">
+              Ni Kadek Rini Widyaningsih
+            </h3>
+            <span
+              class="fw-bold fs-4"
+              data-aos="fade-left"
+              data-aos-duration="1500"
+              >putra-putri dari pasangan</span
+            >
+            <p
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="1000"
+            >
+              I Wayan Sudiarta <br />
+              & <br />
+              Ni Kadek Dwiari
+            </p>
+            <img
+              src="images/g-divider.png"
+              width="500px"
+              class="my-5"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+            />
+            <h3 class="mt-5" data-aos="fade-right" data-aos-duration="1500">
+              Putu Sanjaya
+            </h3>
+            <h3 data-aos="fade-right" data-aos-duration="1500">Kevin</h3>
+            <span
+              class="fw-bold fs-4"
+              data-aos="fade-right"
+              data-aos-duration="1500"
+              >putra dari pasangan</span
+            >
+            <p
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="1000"
+            >
+              lorem <br />
+              & <br />
+              ipsum
+            </p>
+            <img
+              src="images/g-divider.png"
+              width="500px"
+              class="my-5"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+            />
+            <p
+              class="fs-6"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-easing="linear"
+            >
+              Merupakan sebuah kehormatan dan kebahagiaan bagi kami apabila
+              Bapak/Ibu/Saudara/i, berkenan hadir untuk memberikan doa restu.
+              Atas kehadirannya kami ucapkan terima kasih.
+            </p>
+            <img
+              src="images/OM-SANTIH1-1024x150.png"
+              class="img-fluid"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-easing="linear"
+            />
+            <h2
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-easing="linear"
+              data-aos-delay="100"
+            >
+              Om Shanti Shanti Shanti Om
+            </h2>
+            <img
+              src="images/g-divider1.png"
+              width="500px"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-easing="linear"
+              data-aos-delay="200"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Info section -->
+    <section id="info" class="info">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <img
+              src="images/divider-flower.png"
+              height="100px"
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="1000"
+            />
+            <h2
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="1000"
+            >
+              Mepandes
+            </h2>
+            <p
+              class="alamat"
+              data-aos="fade-up"
+              data-aos-delay="100"
+              data-aos-easing="linear"
+              data-aos-duration="1000"
+            >
+              Jl. Dr. Ir. Sukarno, Br. Guliang, Pejeng, Tampaksiring, Gianyar
+            </p>
+
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d246.61761494497168!2d115.2936975677471!3d-8.510852352740502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1732683838769!5m2!1sid!2sid"
+              width="100%"
+              height="250"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              data-aos="zoom-in"
+              data-aos-duration="1500"
+            ></iframe>
+
+            <a
+              href="https://maps.app.goo.gl/UqfK19Px9iggDHuP8"
+              target="_blank"
+              class="btn btn-light btn-sm my-3"
+            >
+              <i class="bi bi-geo-alt-fill"></i>Klik untuk membuka peta</a
+            >
+          </div>
+        </div>
+
+        <div class="row justify-content-center mt-4">
+          <div class="col-md-5 col-10">
+            <div class="card text-center text-bg-light mb-5">
+              <div class="card-header">Metatah</div>
+              <div class="card-body">
+                <div class="row justify-content-center">
+                  <div class="col-md-6">
+                    <i class="bi bi-clock d-block"></i>
+                    <span>08.00 - 10.00</span>
+                  </div>
+                  <div class="col-md-6">
+                    <i class="bi bi-calendar3 d-block"></i>
+                    <span>Sabtu, 30 November 2024</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">
+                Saat acara diharapkan untuk kondusif menjaga kekhidmatan dan
+                kekhusyuan seluruh prosesi.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 col-10">
+            <div class="card text-center text-bg-light">
+              <div class="card-header">Resepsi</div>
+              <div class="card-body">
+                <div class="row justify-content-center">
+                  <div class="col-md-6">
+                    <i class="bi bi-clock d-block"></i>
+                    <span>11.00 - selesai</span>
+                  </div>
+                  <div class="col-md-6">
+                    <i class="bi bi-calendar3 d-block"></i>
+                    <span>Sabtu, 30 November 2024</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">
+                Saat acara diharapkan untuk kondusif menjaga kekhidmatan dan
+                kekhusyuan seluruh prosesi.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RSVP Section -->
+    <section id="rsvp" class="rsvp">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Konfirmasi Kehadiran</h2>
+            <p>Isi form di bawah ini untuk melakukan konfirmasi kehadiran.</p>
+          </div>
+        </div>
+
+        <form
+          class="row row-cols-md-auto g-3 align-items-center justify-content-center"
+          method="POST"
+          action="https://script.google.com/macros/s/AKfycbx9oZ4PjG2Pck8aJpQ3pq6YX2tdGFm7EU4mpt7-OCFiy7uIVFQDFRXKffKsUDKxkdw/exec"
+          id="my-form"
+        >
+          <div class="col-12">
+            <div class="mb-3">
+              <label for="nama" class="form-label">Nama</label>
+              <input type="text" class="form-control" id="nama" name="nama" />
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="mb-3">
+              <label for="jumlah" class="form-label">Jumlah</label>
+              <input
+                type="number"
+                class="form-control"
+                id="jumlah"
+                name="jumlah"
+                min="1"
+                max="5"
+                length="1"
+                value="1"
+              />
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="mb-3">
+              <label for="status" class="form-label">Konfirmasi</label>
+              <select name="status" id="status" class="form-select">
+                <option selected>Pilih salah satu</option>
+                <option value="Hadir">Hadir</option>
+                <option value="Tidak Hadir">Tidak Hadir</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-12" style="margin-top: 35px">
+            <button class="btn btn-primary">Kirim</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <small class="block"
+              >&copy; 2024 I Gede Rino Saputra. All Rights Reserved.</small
+            >
+            <small class="block"
+              >Design by
+              <a href="https://instagram.com/rino.saputraa_">@rino.saputraa_</a
+              >.</small
+            >
+
+            <ul class="mt-3">
+              <li>
+                <a href="https://instagram.com/rino.saputraa_"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="bi bi-facebook"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div id="audio-container">
+      <audio id="song" autoplay loop>
+        <source
+          src="audio/Asyik, Selonding Bali Aga , Latihan Gending Sekar Gadung [-54nDltrNc0].mp3"
+          type="audio/mp3"
+        />
+      </audio>
+
+      <div class="audio-icon-wrapper" style="display: none">
+        <i class="bi bi-disc"></i>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+    <script src="script.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
